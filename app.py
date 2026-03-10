@@ -62,9 +62,9 @@ with st.sidebar:
         }[x]
     )
     
-    # 2. 選擇分析算法 ( RF or CNN)
+    # 2. 選擇預測模型 ( RF or CNN)
     analysis_type = st.radio(
-        "選擇分析算法",
+        "選擇預測模型",
         options=["Random Forest", "CNN"],
         help="RF 使用 6 項核心統計特徵；CNN 使用 PSD/CSD 深度學習模型"
     )
