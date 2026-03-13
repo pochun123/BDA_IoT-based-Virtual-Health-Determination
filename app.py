@@ -12,7 +12,7 @@ from RF_package import pred_rf, extract_features
 # 設定網頁標題與圖示
 st.set_page_config(page_title="機器手臂振動監測中心", layout="wide")
 # --- 主畫面佈局 ---
-st.title("🏭 機器手臂振動即時監測")
+st.title("🏭 機器手臂振動監測")
 st.write("請上傳機器手臂振動數據檔案（.txt 或 .csv），系統將自動分析傳動軸負荷。")
 
 
